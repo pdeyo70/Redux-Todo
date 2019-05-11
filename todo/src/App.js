@@ -1,11 +1,12 @@
 import React from 'react';
+import Todos from './components/Todos';
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>There's fixin' to be a whole mess of todos up in here!</h1>
+      <Todos />
     </div>
   );
 }
