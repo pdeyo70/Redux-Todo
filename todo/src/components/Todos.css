@@ -1,0 +1,25 @@
+.complete {
+    text-decoration: line-through
+}
+
+.incomplete {
+    text-decoration: none
+}
+ul {
+    list-style: square;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    justify-items: right;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 auto;
+    }
+
+button {
+    height: 20px;
+    margin-left: 20px;
+}
+
